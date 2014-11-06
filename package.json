@@ -1,0 +1,53 @@
+{
+  "name": "tlaloc-frontend",
+  "version": "0.0.0",
+  "description": "built with react, bootstrap, and webpack",
+  "main": "src/TlalocApp.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "6to5": "^1.10.10",
+    "6to5-loader": "^0.2.3",
+    "amygdala": "git+https://github.com/defektive/amygdala.git#master",
+    "bootstrap": "^3.3.0",
+    "bootstrap-webpack": "^0.0.3",
+    "css-loader": "^0.9.0",
+    "es6-loader": "^0.2.0",
+    "file-loader": "^0.8.1",
+    "flux": "^2.0.1",
+    "imports-loader": "^0.6.3",
+    "jquery": "^2.1.1",
+    "jsx-loader": "^0.12.1",
+    "less": "^1.7.5",
+    "less-loader": "^0.7.7",
+    "q": "^1.1.1",
+    "react": "^0.12.0",
+    "style-loader": "^0.8.2",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.4.13",
+    "webpack-dev-server": "^1.6.5",
+    "wolfy87-eventemitter": "^4.2.9"
+  },
+  "scripts": {
+    "dev": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --colors --content-base=public",
+    "dist": "node node_modules/webpack/bin/webpack.js --colors --content-base=public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/defektive/tlaloc-frontend.git"
+  },
+  "keywords": [
+    "Open",
+    "sprinkler",
+    "pi"
+  ],
+  "author": "defektive<defektive@protonmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/defektive/tlaloc-frontend/issues"
+  },
+  "homepage": "https://github.com/defektive/tlaloc-frontend"
+}
